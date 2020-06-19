@@ -1,0 +1,374 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+   	background-image: url(rrrrskullpattern_shop_preview.jpg);
+    background-attachment: fixed;
+    /*background-color: black; */
+}
+
+.header{
+	width: 100vw;
+	height: 70px;
+	display: block;
+	background-color: #000000;
+}
+
+.inner_header{
+	max-width: 1200px;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+	min-width: 800px;
+}
+
+.logo_container{
+	height: 100%;
+	display: table;
+	float: left;
+	color: white;
+	
+}
+
+.logo_container h1{
+	color: white;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	font-family: 'Roboto', sans-serif;
+	font-size: 32px
+}
+
+.logo_container h1 img{
+	width: 140px;
+	height: auto;
+}
+
+.navigation{
+	float: right;
+	height: 100%;
+}
+
+.navigation a{
+	height: 100%;
+	display: table;
+	float: left;
+	padding: 0px 20px;
+}
+
+.navigation a:last-child{
+	padding-right: 0px;
+}
+
+.navigation a li{
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: white;
+}
+
+.content{
+   	background: black;
+    max-width: 720px;
+    padding: 40px;
+    margin: 100px auto;
+    font-family: 'Palanquin Dark', sans-serif;
+    min-height: 50vh;
+    min-width: 720px;
+    margin-top: 0px;
+    padding-bottom: 65px;
+}
+
+.content-login {
+	background: black;
+	width: 20%;
+	height: auto;
+	padding: 50px 40px 40px 40px;
+	margin: 0px auto;
+	font-family: 'Palanquin Dark', sans-serif;
+	margin-top: 300px;
+	border-style: groove;
+	border-color: #424549;
+}
+
+.content-adminpages{
+   	background: black;
+    width: 80%
+    padding: 40px;
+    margin: 100px auto;
+    font-family: 'Palanquin Dark', sans-serif;
+    min-height: 50vh;
+    min-width: 70%;
+    margin-top: 0px;
+    padding-bottom: 65px;
+}
+
+.merch-content{
+   	background: black;
+    max-width: 720px;
+    padding: 40px;
+    margin: 100px auto;
+    font-family: 'Palanquin Dark', sans-serif;
+    min-height: 50vh;
+    min-width: 720px;
+    margin-top: 0px;
+}
+
+.merch-content .polaroid {
+  width: 60%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: auto;
+  margin-bottom: 60px;
+  border-style: solid;
+  border-color:  #424949 ;
+  border-width: 5px;
+}
+
+.merch-content .merch-container {
+  text-align: center;
+  padding: 10px 20px;
+  background-color: Black;
+  font-family: sans-serif;
+}
+
+.merch-content .merch-container small{
+  text-align: center;
+  background-color: Black;
+  font-family: sans-serif;
+  color: white;
+  margin-top: 30px;
+}
+
+.upcoming-release{
+	background-image: url(../music/a32.jpg);
+    max-width: 800px;
+    min-height: 720px;
+    max-height: 720px;
+    margin: 0 auto;
+    background-size: 720px auto;
+}
+
+.content h1{
+	margin-left: 20px;
+	font-family: 'Palanquin Dark', sans-serif;
+    color: white;
+    font-size: 24px;
+}
+
+.content h2{
+	margin-left: 20px;
+	font-family: 'Palanquin Dark', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+.upcoming-release h1{
+	margin-left: 20px;
+	font-family: 'Palanquin Dark', sans-serif;
+    color: white;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.events h1{
+	margin-left: 20px;
+	font-family: 'Palanquin Dark', sans-serif;
+    color: white;
+    font-size: 32px;
+    font-style: italic;
+    padding: 20px;
+}
+
+.youtube-container {
+	margin: 0 auto; 
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+p{
+    font-size: 18px;
+    color: white;
+}
+
+#container{
+
+	width: 800px;
+	overflow: hidden;
+	background-color: black;
+	margin: auto;
+}
+
+div{
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+#sliderbox{
+	position: relative;
+	width: 7000px;
+	animation-name: slideranimation;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+
+}
+
+#sliderbox img{
+	float: left;
+}
+
+@keyframes slideranimation{
+
+	0%
+	{
+		left: 0px;
+	}
+	28% /*4 second */
+	{
+		left: 0px;
+	}
+	33%
+	{
+		left: -800px;
+	}
+	61%
+	{
+		left: -800px;
+	}
+	66%
+	{
+		left: -1600px;
+	}
+	99%{
+		left: -1600px;
+	}
+}
+
+.footer{
+	width: 100vw;
+	display: block;
+	overflow: hidden;
+	padding: 70px 0;
+	box-sizing: border-box;
+	background-color: #000000;
+}
+
+.inner_footer{
+	display: block;
+	margin: 0 auto;
+	width: 1200px;
+	height: 100%
+	background-color: #18181a;
+	min-width: 720px;
+}
+
+.inner_footer .logo_container{
+	width: 35%;
+	float: left;
+}
+
+.inner_footer .logo_container img{
+	width: 200px;
+	height: auto;
+}
+
+.inner_footer .inner_third{
+	width: calc(30% - 20px);
+	float: right;
+	height: 100%;
+}
+
+.inner_footer .inner_third:last-child{
+	margin-right: 0;
+}
+
+.inner_footer .inner_third h1{
+	font-family: 'Palanquin Dark', sans-serif;
+	font-size: 22px;
+	color: white;
+	display: block;
+	width: 100%
+	margin-bottom: 10px;
+}
+
+.inner_footer .inner_third a{
+	font-family: 'Palanquin Dark', sans-serif;
+	font-size: 18px;
+	color: white;
+	font-weight: 200px;
+	display: block;
+	width: 100%
+	margin-bottom: 20px;
+	padding-bottom: 5px;
+}
+
+.inner_footer .inner_third li{
+	display: inline-block;
+	font-family: 'Palanquin Dark', sans-serif;
+	font-size: 22px;
+	color: white;
+	margin-bottom: 20px;
+	padding:0 5px;
+}
+
+#frm{
+    border: solid gray 5px;
+    width: 50%;
+    border-radius: 5px;
+    margin: 50px auto;
+    background: black;
+    padding: 50px;
+    color: white;
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+
+#update-appointment-form {
+	border: solid gray 5px;
+	width: 24%;
+	border-radius: 5px;
+	margin: 50px auto;
+	background: black;
+	padding: 50px;
+	color: white;
+	margin-bottom: 0px;
+	text-align: left;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+#btn{
+        background-color: #005FA1 ;
+        border: none;
+        color: white;
+        padding: 5px 14px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+
+
+
+.box{
+	width: 700px;        
+    border: 5px solid black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.content .events .box img{
+	max-width: 100%;
+	max-height: 100%;
+	display: block; 
+}

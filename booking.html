@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Booking</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+      
+    <link href="https://fonts.googleapis.com/css?family=Palanquin+Dark&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Scope+One&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Palanquin+Dark&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<div class="header">
+		<div class="inner_header">
+			<div class="logo_container">
+				<h1><img src="images/logo.jpg"></h1>
+			</div>
+
+			<ul class="navigation">
+				<a href="http://localhost/kaalakuma/index.html"><li>Home</li></a>
+				<a href="http://localhost/kaalakuma/music.html"><li>Music</li></a>
+				<a href="http://localhost/kaalakuma/merchandise.html"><li>Merchandise</li></a>
+				<a href="http://localhost/kaalakuma/events.html"><li>Shows</li></a>
+				<a href="http://localhost/kaalakuma/booking.html"><li>Booking</li></a>
+			</ul>
+		</div>
+	</div>
+
+	
+
+	
+
+	<div class="content">
+		<h1 style="text-align: center; font-style: italic;">Fillout the form for letting us know about your next Concert!</h1>
+		<div id="frm">
+
+        <form name="booking" action="bookingdb.php" method="POST">
+            <p>
+            	<label for="fname" style="margin-right: 114px;">Name:</label>
+ 				<input type="text" id="username" name="username" placeholder="Name" required pattern="^[A-Za-z0-9 ]+$" maxlength="50"><br>
+            </p>
+
+
+            <p>
+                <label for="fname" style="margin-right: 42px;">Phone number:</label>
+		    	<input type="text" id="phone" name="phone" placeholder="01723******" required pattern="[0-9]{11}"  maxlength="11"><br>
+            </p>
+
+            <p>
+            	<label for="email" style="margin-right: 29px;">Enter your email:</label>
+				<input type="email" id="email" name="email" placeholder="abxy@email.com"> 
+            </p>
+
+
+            <p>
+            	<label for="fname" style="margin-right: 36px;">Company name:</label>
+ 				<input  type="text" id="companyname" name="companyname" placeholder="Company Name" required pattern="^[A-Za-z0-9 ]+$" maxlength="50"><br>
+            </p>
+
+            <p>
+            	<label for="fname" style="margin-right: 36px;">Company name:</label>
+ 				<input type="text" id="location" name="location" placeholder="Location" required pattern="^[A-Za-z0-9 ]+$" maxlength="100"><br>
+            </p>
+
+            <p>
+            	<label for="date" style="margin-right: 86px;">Date of Gig:</label>
+		    	<input type="date" id="dates" name="dates" required><br>
+            </p>
+
+            
+            <p>
+                <input style="margin-left: 197px;padding-top: 5px;padding-bottom: 7px;margin-top: 24px;" type="submit" id="btn" name="btn" value="Submit">
+            </p>
+            
+    
+            </form>
+        </div>
+
+        <div class="Trademark" style="color: white; vertical-align: bottom; display: block; text-align: left; width: 200px; height: 100%; padding-top: 60px">
+			<h4>&#174;Kaal Akuma</h4>
+		</div>
+	</div>
+
+
+	<div class="footer">
+		<div class="inner_footer">
+			<div class="logo_container">
+				<img src="images/logo.jpg">
+			</div>
+
+			
+
+			<div class="inner_third">
+				<!--<h1>Stay Updated!</h1>-->
+				<br>
+				<li><a href="https://www.facebook.com/kaalakuma/"><i class="fab fa-facebook-square"></i></a></li>
+				<li><a href="https://www.youtube.com/channel/UCF6wO4a758nPtyMcKNyUVEA/"><i class="fab fa-youtube-square"></i></a></li>
+				<li><a href="https://www.instagram.com/kaal_akuma/"><i class="fab fa-instagram-square"></i></a></li>
+				<li><a href="https://kaalakuma.bandcamp.com/releases/"><i class="fab fa-bandcamp"></i></a></li>
+			</div>
+
+			<div class="inner_third">
+				<h1>Contact us via mail</h1>
+				<br>
+				<li><a href="kaalakuma@gmail.com">kaalakuma@gmail.com</a></li>
+			</div>
+			
+		</div>
+
+		<div class="Trademark" style="color: white; vertical-align: bottom; display: block; text-align: right; width: 100px; height: 100%; margin-left: 80%;">
+			<h4><a href="http://localhost/kaalakuma/adminlogin.php" style="color: white; font-family: sans-serif;">Admin Login</a></h4>
+		</div>
+	</div>
+</body>
+</html>
